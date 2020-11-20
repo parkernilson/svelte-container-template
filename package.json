@@ -20,6 +20,6 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev-server": "webpack-dev-server --content-base public",
-    "dev": "docker-compose -f docker-compose.dev.yml up --build",
+    "dev": "docker-compose -f docker-compose.dev.yml up --build"
   }
 }
